@@ -16,7 +16,7 @@ import java.io.IOException;
  *   of searching for a specific key, splitting the file into an index file and sorting the
  *   index file.
  *   
- *   @author nrouli
+ *   @author nr
  *   @since 2023-03
  */
 public class RFile implements Closeable {

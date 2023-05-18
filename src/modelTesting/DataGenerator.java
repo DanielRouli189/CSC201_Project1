@@ -49,6 +49,7 @@ public class DataGenerator {
 	 * @param numOfRecords The amount of records to be created in the file.
 	 * @throws IOException If there is an I/O error.
 	 * @throws IllegalArgumentException If either the dataBytes or numOfRecords argument is negative.
+     * 
 	 */
     public DataGenerator(int dataBytes, int numOfRecords) throws IOException {
         if(dataBytes < 0)

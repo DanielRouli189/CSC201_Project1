@@ -21,7 +21,7 @@ import java.util.Random;
  *  respect to time is to be expected.
  *  </p>
  * 
- *  @author nrouli
+ *  @author nr
  *  @since 2023-03
  *  
  */
@@ -142,8 +142,6 @@ public class TestGenerator implements Runnable {
         
         
         for(int i = 0; i < counts; ++i){
-            dg.getRf().getClass().getName();
-            dg.getClass().getName();
             startLinearSearch = System.nanoTime();
             result += dg.getRf().searchFile(randomInts[i]);
             stopLinearSearch += (System.nanoTime() - startLinearSearch);
@@ -169,8 +167,6 @@ public class TestGenerator implements Runnable {
         
         
         for(int i = 0; i < counts; ++i) {
-            dg.getRf().getClass().getName();
-            dg.getClass().getName();
             startLinearIndexSearch = System.nanoTime();
             result += dg.getRf().getIndexFile().searchFile(randomInts[i]);
             stopLinearIndexSearch += (System.nanoTime() - startLinearIndexSearch);

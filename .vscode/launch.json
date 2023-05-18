@@ -9,6 +9,13 @@
             "name": "App",
             "request": "launch",
             "mainClass": "modelTesting.App",
+            "projectName": "Project_1_2023_422da706"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "modelTesting.App",
             "projectName": "Project_1_2023_fadc527c"
         }
     ]

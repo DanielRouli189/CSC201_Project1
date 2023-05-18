@@ -10,7 +10,7 @@ import utils.Utils;
  * The {@code App} class is the main class of this application, responsible for
  * generating test files and measuring the time it takes to generate them.
  * 
- * @author nrouli
+ * @author nr
  * 
  */
 public class App {
@@ -69,12 +69,7 @@ public class App {
         long totTime2 = app.createTestFiles(55);
         long totTime = app.createTestFiles(27);
         System.out.println("Runtime: "+(totTime + totTime2)/1000+ " seconds");
-        
-
-        for(int i = 0; i < 4; ++i){
-            app.createTestFiles(55);
-            app.createTestFiles(27);
-        }
+    
     }
 
     /**
